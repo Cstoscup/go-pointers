@@ -6,5 +6,5 @@ func main() {
 	name := "John"
 	ptr := &name
 
-	fmt.Println("Value", *ptr)
+	fmt.Println("Value", ptr)
 }
