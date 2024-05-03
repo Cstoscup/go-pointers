@@ -9,7 +9,7 @@ type dog struct {
 }
 
 func main() {
-	var dog1 dog = dog{"Fido", "German Shepherd", 5}
+	var dog1 = dog{"Fido", "German Shepherd", 5}
 	fmt.Println(dog1)
 
 	changeDogAge(&dog1)
